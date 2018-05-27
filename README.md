@@ -4,6 +4,10 @@ This is a project to share code snippets for a variety of game engines freely to
 
 ## FAQ
 
+### Why can't I commit directly to master?
+
+We've protected the master branch—create a new branch and submit a pull request.
+
 ### What is GDN?
 
 It's game development community over on Discord, a place where everyone from total beginners to industry veterans can talk about cutting edge technology, their favourite Nintendo easter eggs or marketing tips for release.
