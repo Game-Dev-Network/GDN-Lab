@@ -38,5 +38,9 @@ Be aware that making a request won't necessarily mean that one is created for yo
 
 [Yes][Discord Server Link]—we'd love to see you there!
 
+### Why do you use a Contributor License Agreement? Aren't they generally frowned upon?
+
+If we decide to relicense contributions then it makes it difficult if we have to get permission from each contributor. By sublicensing the license that is granted to us by each contributor, we can easily change the sublicense.
+
 [Discord Server Link]: https://discord.gg/gdn
 [Contributing Document]: CONTRIBUTING.md
