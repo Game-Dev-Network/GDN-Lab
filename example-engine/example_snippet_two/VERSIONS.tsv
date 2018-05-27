@@ -1,0 +1,6 @@
+Major version	Full Version	Supported Engine Versions	Changes	Author(s) of Changes
+v1	v1.0.0	0.0.1-0.4.5	N/A (Initial version)	Harry Shipton
+v1	v1.0.1	0.0.1-0.4.6	Add new engine version support	Some other author
+v1	v1.1.0	0.0.1-0.4.6	Allow optional new line after printed string	Harry Shipton
+v2A	v2A.0.0	0.0.1-0.4.6	Shrink file size into one line, removes previous functionality	Harry Shipton
+v2B	v2B.0.0	0.5.0	Shrink file size into one line, removes previous functionality, and updates to latest version	Harry Shipton, Some other author
