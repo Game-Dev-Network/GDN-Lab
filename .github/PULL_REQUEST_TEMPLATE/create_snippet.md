@@ -1,9 +1,3 @@
----
-name: Create Snippet
-about: Create a new snippet that doesn't exist
-
----
-
 ## Checklist
 
 - [ ] I have used a major version folder inside the snippet root directory

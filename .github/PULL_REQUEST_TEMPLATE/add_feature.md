@@ -1,9 +1,3 @@
----
-name: Add Feature
-about: Add a feature to an existing snippet
-
----
-
 ## Checklist
 
 - [ ] I have updated `README.md`

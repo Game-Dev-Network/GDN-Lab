@@ -1,9 +1,3 @@
----
-name: Bug fix
-about: Fix a snippet
-
----
-
 ## Checklist
 
 - [ ] I have updated `README.md` if necessary
