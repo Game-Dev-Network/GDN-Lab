@@ -39,3 +39,4 @@ Be aware that making a request won't necessarily mean that one is created for yo
 [Yes][Discord Server Link]—we'd love to see you there!
 
 [Discord Server Link]: https://discord.gg/gdn
+[Contributing Document]: CONTRIBUTING.md
