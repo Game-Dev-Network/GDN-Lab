@@ -27,7 +27,7 @@ public class Rockys2DMapGen : MonoBehaviour
         System.Random rnd = new System.Random(); //init randomizer
         int x = rnd.Next(0, Chunks.Length); //use Chunks.Length, so we dont have a static value
         int i = 2; //to keep multiplication smooth
-        x = rnd.Next(1, Chunks.Length);
+        x = rnd.Next(0, Chunks.Length);
         Vector3 Chunk_X = new Vector3(GameObject_Width, 0); //set up Chunk X axis measurement
         Vector3 Chunk_Y = new Vector3(0, GameObject_Height); //set up Chunk Y axis measurement
         int Column = 1;
