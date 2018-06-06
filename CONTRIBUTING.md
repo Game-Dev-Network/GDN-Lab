@@ -38,7 +38,7 @@ code-gift/
     `-- INDEX.tsv
 ```
 
-Each engine has its own directory. Inside each directory is a summary list of all snippets in that directory in a TSV format called `INDEX.tsv`. We chose a TSV format so that it's easily searchable.
+Each engine has its own directory (and sometimes sub-directory if it makes sense, e.g. `Unity 2D` and `Unity 3D`). Inside each directory is a summary list of all snippets in that directory in a TSV format called `INDEX.tsv`. We chose a TSV format so that it's easily searchable.
 
 Alongside that `INDEX.tsv` file are directories for each snippet, and inside these are directories for each new major version with a descriptor file called `VERSIONS.tsv` for the major versions.
 
