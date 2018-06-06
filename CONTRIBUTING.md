@@ -40,7 +40,7 @@ code-gift/
 
 Each engine has its own directory. Inside each directory is a summary list of all snippets in that directory in a TSV format called `INDEX.tsv`. We chose a TSV format so that it's easily searchable.
 
-Alongside that `INDEX.tsv` file are directorys for each snippet, and inside these are directorys for each new major version with a descriptor file called `VERSIONS.tsv` for the major versions.
+Alongside that `INDEX.tsv` file are directories for each snippet, and inside these are directorys for each new major version with a descriptor file called `VERSIONS.tsv` for the major versions.
 
 ## Creating a new snippet
 
