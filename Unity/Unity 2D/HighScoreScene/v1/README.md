@@ -4,7 +4,7 @@
   
   It can be edited in any way but if you just need 10 slots of highscores is already done.
   
-  This systems will store new highscores in PlayerPrefs so it will be stored when the game is closed.
+  This systems will store new highscores in PlayerPrefs so it will be recovered when the game is open after registered any highscore closed.
   
 
 # How to use
