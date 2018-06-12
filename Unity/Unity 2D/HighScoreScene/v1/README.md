@@ -15,7 +15,7 @@
   
   To modify the new score data you just need to create a reference to the Score ScriptableObject, if for example your reference is called m_score you can edit values and launch the scene like this:
   
-    ```m_score.SetName("UserName").SetValue(18200).Launch();```
+    m_score.SetName("UserName").SetValue(18200).Launch();
     
   Where: 
   
