@@ -1,8 +1,30 @@
 # GDN Code Gift
 
-This is a project to share code snippets for a variety of game engines freely to developers. You are permitted to use contributions under the FPL/0BSD license. Note that these licensed rights have been sublicensed from the author.
+This is a project to share code snippets for a variety of game engines freely to developers. Each snippet has its own license, so please be careful of that.
+
+## Project Licenses
+
+Licenses in this section refer to files named `LICENSE` and `LICENSE.md` (including any variation on the capitalisations of those names).
+
+Licenses in a directory apply to all files in that directory and recursively apply to sub-directories and their respective files.
+
+A license in a directory means that all licenses in parent directories do not apply to that directory, and all direct and indirect sub-directories (along with all files within that directory and all direct and indirect sub-directories), except as to where a license contained within the sub-directory of a directory is identical to a direct or indirect parent of that directory.
+
+Files that have a name of `README`, `README.md`, `VERSIONS.tsv` or `INDEX.tsv` (including any variation on the capitalisations of those names) are licensed under the project's root directory license no matter their location, and no license in any sub-directory applies to these files.
 
 ## FAQ
+
+### That license thing hurt my head. Can you explain it in simple terms?
+
+Yes, but the complicated license thing above still applies, this is just here to help you. If you want the authoritative answer, please check the section titled "Project Licenses"
+
+If the file that you're wanting to use is called `README`, `README.md`, `VERSIONS.tsv`, or `INDEX.tsv` then the license you want is [this one][Project License].
+
+In all other cases, follow these steps until you find the license:
+1. Go to the directory of the file that you want to find the license of.
+2. If there is a `LICENSE` or `LICENSE.md` file in the current directory, then that license applies to the file.
+3. If the license in the current directory doesn't exist, go up a directory.
+4. Repeat steps 2 and 3 until you find the applicable license.
 
 ### Why can't I commit directly to master?
 
@@ -26,7 +48,7 @@ We're invested into making sure your developer experience is as smooth as possib
 
 ### Do I need to attribute to the original author?
 
-No you don't _have_ to, but we're sure that the original author would appreciate it if you did!
+It depends on the license applicable to the files that you're using. Check this file on how to determine the license.
 
 ### How do I contribute?
 
@@ -42,9 +64,10 @@ Be aware that making a request won't necessarily mean that one is created for yo
 
 [Yes][Discord Server Link]—we'd love to see you there!
 
-### Why do you use a Contributor License Agreement? Aren't they generally frowned upon?
+### Will the license change over time?
 
-If we decide to relicense contributions then it makes it difficult if we have to get permission from each contributor. By sublicensing the license that is granted to us by each contributor, we can easily change the sublicense.
+We will not accept pull requests that alter the license of existing parts of the code snippet, except where the GDN moderators determine that there is a significant reason to do so.
 
 [Discord Server Link]: https://discord.gg/gdn
 [Contributing Document]: CONTRIBUTING.md
+[Project License]: LICENSE

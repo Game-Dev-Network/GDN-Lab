@@ -20,10 +20,12 @@ code-gift/
 |   |   |   `-- README.md
 |   |   |-- v2/
 |   |   |   `-- README.md
+|   |   |-- LICENSE.md
 |   |   `-- VERSIONS.tsv
 |   |-- example-snippet-2/
 |   |   |-- v1/
 |   |   |   `-- README.md
+|   |   |-- LICENSE.md
 |   |   `-- VERSIONS.tsv
 |   `-- INDEX.tsv
 |-- unreal/
@@ -51,8 +53,35 @@ There's a few steps that you'll need to take:
 4. Create your snippet in the `v1` directory.
 5. Update the `INDEX.tsv` with information on your new snippet.
 6. Create a `VERSIONS.tsv` file in your snippet's root directory (copy another snippet's file if you need to) and a `README.md` with more information on things like the author and how to use it.
+7. Choose a license (see below).
 7. Commit and create a pull request back into the `master` branch. If this is your first pull request, you'll also need to accept the CLA—you'll get instructions for this once you've created your pull request.
 8. Wait for your pull request to be approved.
+
+### Choosing a license
+
+Each snippet has its own license. Make sure to pick the right one because we don't accept changes to the license unless the moderators believe that there is significant reason to change the license.
+
+We only accept permissive licenses. That means it must be able to be used for commercial use without any additional restrictions to non-commercial use, and the person using it must not be forced to adopt a particular license except for changes made to your snippet.
+
+If you don't know which license to choose then we recommend either CC0 or ISC.
+
+The following lists are subject to change at any time.
+
+Examples of permitted licenses:
+* CC0
+* Certain Creative Commons licenses (e.g. CC BY)
+* The Unlicense
+* MIT
+* BSD
+* ISC
+* Apache
+* Mozilla Public License
+
+Examples of licenses that we won't accept:
+* GPL and AGPL (or any other FSF licenses that are similar to these)
+* LGPL (because it's likely that larger works won't use interfaces provided by the licensed work)
+* Certain Creative Commons licenses (e.g. CC BY-NC-ND, CC BY-NC-SA, CC BY-NC, CC BY-ND)
+* Other strong and mild copyleft licenses
 
 ## Modifying a snippet
 
