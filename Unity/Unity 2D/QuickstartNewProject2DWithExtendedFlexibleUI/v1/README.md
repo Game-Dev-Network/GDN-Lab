@@ -6,7 +6,11 @@ Project has example folders structure setup.
 
 Also contains: PixelPerfectCamera script with wheel zoom, FollowCamera2D, InputManager, FPS counter, ScreenResolutionManager supports jumping in and out of fullscreen for any resolution, menu buttons tabbing, and accumulated useful extension methods (.NET 4.*).
 
+Instructions: To remove placeholder files, run "RunToRemovePlaceholders.bat".
+
 ## Supported engine versions
+
+Unity 2018.1.4f1 +
 
 ## Authors
 
