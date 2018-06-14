@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9df9a17a6c907704d946441ab7b0f081, type: 3}
+  m_Name: Theme Swap
+  m_EditorClassIdentifier: 
+  activeIndex: 0
+  allFlexibleUIData:
+  - {fileID: 11400000, guid: 1a57ce79eacabb843bb9203521951f42, type: 2}

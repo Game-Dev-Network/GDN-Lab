@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3023798a5b83c384cae013f42c87c4f8, type: 3}
+  m_Name: Default Theme
+  m_EditorClassIdentifier: 
+  allUIObjects: {fileID: 11400000, guid: 43d527067f169c44d85526b8fcbcc00b, type: 2}
+  buttonSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  color: {r: 0.22574759, g: 0.66611934, b: 0.8396226, a: 0.7529412}
+  fontAsset: {fileID: 11400000, guid: db931d91c8b82d142ad683aa8b96d5b5, type: 2}
+  fontMaterial: {fileID: 21416727941286536, guid: db931d91c8b82d142ad683aa8b96d5b5,
+    type: 2}
+  fontSize: 16
+  elementWidth: 200
+  elementHeight: 30
