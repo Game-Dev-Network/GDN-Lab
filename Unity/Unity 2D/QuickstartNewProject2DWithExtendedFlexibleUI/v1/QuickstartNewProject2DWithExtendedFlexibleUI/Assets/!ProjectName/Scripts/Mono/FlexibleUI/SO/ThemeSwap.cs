@@ -3,23 +3,21 @@
 [CreateAssetMenu(menuName = "Custom/UI/ThemeSwap")]
 public class ThemeSwap : ScriptableObject {
     private FlexibleUIData[] previousFlexibleUIData;
-    private bool firstRun = true;
 
     [Tooltip("Determines which theme is used for new items")]
     public int activeIndex = 0;
     public FlexibleUIData[] allFlexibleUIData;
+
+    private void OnEnable() {
+        previousFlexibleUIData = allFlexibleUIData;
+    }
 
     private void OnValidate() {
         Swap();
     }
 
     public void Swap() {
-        //To avoid non-nullable array Scriptable Object weirdness
-        if (firstRun) {
-            previousFlexibleUIData = allFlexibleUIData;
-            firstRun = false;
-        }
-
+        if (allFlexibleUIData.Length != previousFlexibleUIData.Length) OnEnable();
         for (int i = 0; i < allFlexibleUIData.Length; i++) {
             if (allFlexibleUIData[i] != previousFlexibleUIData[i]) {
                 for (int j = 0; j < previousFlexibleUIData[i].allUIObjects.Items.Count; j++) {
