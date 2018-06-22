@@ -10,7 +10,7 @@ Instructions: To remove placeholder files, run "RunToRemovePlaceholders.bat".
 
 ## Supported engine versions
 
-Unity 2018.1.4f1 +
+Unity 2018.1.5f1 +
 
 ## Authors
 

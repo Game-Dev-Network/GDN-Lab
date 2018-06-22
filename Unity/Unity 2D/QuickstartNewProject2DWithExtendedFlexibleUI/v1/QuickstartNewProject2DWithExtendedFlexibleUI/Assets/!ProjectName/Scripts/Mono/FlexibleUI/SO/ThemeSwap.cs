@@ -9,7 +9,7 @@ public class ThemeSwap : ScriptableObject {
     public FlexibleUIData[] allFlexibleUIData;
 
     private void OnEnable() {
-        previousFlexibleUIData = allFlexibleUIData;
+        previousFlexibleUIData = allFlexibleUIData.Clone() as FlexibleUIData[];
     }
 
     private void OnValidate() {
@@ -17,7 +17,7 @@ public class ThemeSwap : ScriptableObject {
     }
 
     public void Swap() {
-        if (allFlexibleUIData.Length != previousFlexibleUIData.Length) OnEnable();
+        if ((previousFlexibleUIData == null) || (allFlexibleUIData.Length != previousFlexibleUIData.Length)) OnEnable();
         for (int i = 0; i < allFlexibleUIData.Length; i++) {
             if (allFlexibleUIData[i] != previousFlexibleUIData[i]) {
                 for (int j = 0; j < previousFlexibleUIData[i].allUIObjects.Items.Count; j++) {
