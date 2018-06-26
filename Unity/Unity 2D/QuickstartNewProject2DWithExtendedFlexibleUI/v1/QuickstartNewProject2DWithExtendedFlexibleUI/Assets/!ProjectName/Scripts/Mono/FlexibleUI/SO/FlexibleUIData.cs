@@ -13,6 +13,8 @@ public class FlexibleUIData : ScriptableObject {
     public float elementWidth;
     public float elementHeight;
 
+    private static PopRef popRef;
+
     private void OnValidate() {
         //Upon switching item list, move everything to new one
         int count = allUIObjects.Items.Count - 1;
@@ -31,5 +33,14 @@ public class FlexibleUIData : ScriptableObject {
             }
             flexibleUI.OnSkinUI();
         }
+    }
+
+    private void OnEnable() {
+        if (popRef == null) popRef = FindObjectOfType<PopRef>();
+        if (!popRef.allThemes.Contains(this)) popRef.allThemes.Add(this);
+    }
+
+    private void OnDisable() {
+        if (popRef.allThemes.Contains(this)) popRef.allThemes.Remove(this);
     }
 }

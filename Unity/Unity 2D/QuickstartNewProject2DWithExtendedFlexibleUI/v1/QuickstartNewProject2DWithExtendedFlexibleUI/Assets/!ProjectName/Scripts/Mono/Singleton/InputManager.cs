@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class InputManager : MonoBehaviour {
@@ -8,8 +7,6 @@ public class InputManager : MonoBehaviour {
     public bool LockControls { get; set; } = false;
 
     public KeyCode fullScreenKey = KeyCode.F;
-
-    public List<FlexibleUIData> demoUIData;
 
     private void Awake() {
         //Singleton code
@@ -23,8 +20,8 @@ public class InputManager : MonoBehaviour {
         Debug.LogFormat(this, "<color=blue>Remove following loop to stop demo</color>");
         UIObjects.Instance.debugText.text = "Playing demo";
         while (true) {
-            for (int i = 0; i < demoUIData.Count; i++) {
-                PopRef.Instance.themeSwap.allFlexibleUIData[0] = demoUIData[i];
+            for (int i = 0; i < PopRef.Instance.allThemes.Count; i++) {
+                PopRef.Instance.themeSwap.allFlexibleUIData[0] = PopRef.Instance.allThemes[i];
                 PopRef.Instance.themeSwap.Swap();
                 yield return new WaitForSeconds(2f);
             }

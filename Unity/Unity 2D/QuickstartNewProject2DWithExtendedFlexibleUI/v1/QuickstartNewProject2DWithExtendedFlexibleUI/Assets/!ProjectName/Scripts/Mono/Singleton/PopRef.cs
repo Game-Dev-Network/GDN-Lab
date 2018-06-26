@@ -1,4 +1,5 @@
-﻿using TMPro;
+﻿using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 /// <summary>
@@ -18,9 +19,15 @@ public class PopRef : MonoBehaviour {
     [Header("Persistant Objects References")]
     public ThemeSwap themeSwap;
     public TMP_FontAsset fontAsset;
+    public List<FlexibleUIData> allThemes;
 
     [Header("Containers")]
     public Transform terrain;
     public Transform structures;
     public Transform characters;
+
+    private void OnValidate() {
+        //Cleanup deleted Themes
+        foreach (var item in allThemes) if (item == null) allThemes.Remove(item);
+    }
 }
