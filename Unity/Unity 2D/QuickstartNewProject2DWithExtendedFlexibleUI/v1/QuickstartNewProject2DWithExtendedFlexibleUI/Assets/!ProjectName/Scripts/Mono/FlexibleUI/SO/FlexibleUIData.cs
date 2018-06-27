@@ -36,11 +36,11 @@ public class FlexibleUIData : ScriptableObject {
     }
 
     private void OnEnable() {
-        if (popRef == null) popRef = FindObjectOfType<PopRef>();
-        if (!popRef.allThemes.Contains(this)) popRef.allThemes.Add(this);
+        if (popRef == null) popRef = FindObjectOfType<PopRef>(); //fails to find during start up
+        if (popRef != null && !popRef.allThemes.Contains(this)) popRef.allThemes.Add(this);
     }
 
     private void OnDisable() {
-        if (popRef.allThemes.Contains(this)) popRef.allThemes.Remove(this);
+        if (popRef != null && popRef.allThemes.Contains(this)) popRef.allThemes.Remove(this);
     }
 }

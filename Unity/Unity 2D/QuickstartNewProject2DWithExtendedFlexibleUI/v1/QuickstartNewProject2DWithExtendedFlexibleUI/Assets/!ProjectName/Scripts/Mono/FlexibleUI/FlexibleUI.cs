@@ -4,9 +4,11 @@ using UnityEngine.UI;
 [ExecuteInEditMode]
 public abstract class FlexibleUI : MonoBehaviour {
     public FlexibleUIData flexibleUIData;
+    public static PopRef popRef;
 
     private void OnEnable() {
-        if (flexibleUIData == null) flexibleUIData = PopRef.Instance.themeSwap.allFlexibleUIData[PopRef.Instance.themeSwap.activeIndex];
+        if (popRef == null) popRef = FindObjectOfType<PopRef>();
+        if (flexibleUIData == null) flexibleUIData = popRef.themeSwap.allFlexibleUIData[popRef.themeSwap.activeIndex];
         OnSkinUI();
     }
 

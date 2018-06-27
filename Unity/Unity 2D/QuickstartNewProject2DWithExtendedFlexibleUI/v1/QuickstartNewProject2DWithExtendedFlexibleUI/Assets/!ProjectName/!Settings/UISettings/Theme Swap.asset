@@ -11,8 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9df9a17a6c907704d946441ab7b0f081, type: 3}
   m_Name: Theme Swap
   m_EditorClassIdentifier: 
-  note: Adding more than one of the same Theme will merge their contents! Demo does
-    not account for that.
-  activeIndex: 0
+  note: Adding more than one of the same Theme is disallowed because it will merge
+    their contents!
+  activeIndex: 1
   allFlexibleUIData:
   - {fileID: 11400000, guid: a9b588b5928f4644d8dc142d863ef189, type: 2}

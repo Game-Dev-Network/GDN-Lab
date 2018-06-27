@@ -4,6 +4,8 @@ using UnityEngine;
 
 public abstract class FlexibleUIInstance : Editor {
 
+    public static PopRef popRef;
+
     [MenuItem("GameObject/Flexible UI/Button", priority = 0)]
     public static void AddButton() {
         GameObject buttonGO = Create<FlexibleUIButton>("Button");
@@ -11,7 +13,8 @@ public abstract class FlexibleUIInstance : Editor {
         TextMeshProUGUI text = textGO.GetComponent<TextMeshProUGUI>();
         text.text = "Button";
         text.alignment = TextAlignmentOptions.Center;
-        text.font = PopRef.Instance.themeSwap.allFlexibleUIData[PopRef.Instance.themeSwap.activeIndex].fontAsset;
+        PopRefCheck();
+        text.font = popRef.themeSwap.allFlexibleUIData[popRef.themeSwap.activeIndex].fontAsset;
     }
 
     [MenuItem("GameObject/Flexible UI/Panel", priority = 0)]
@@ -25,7 +28,8 @@ public abstract class FlexibleUIInstance : Editor {
         TextMeshProUGUI text = textGO.GetComponent<TextMeshProUGUI>();
         text.text = "Text";
         text.alignment = TextAlignmentOptions.Center;
-        text.font = PopRef.Instance.themeSwap.allFlexibleUIData[PopRef.Instance.themeSwap.activeIndex].fontAsset;
+        PopRefCheck();
+        text.font = popRef.themeSwap.allFlexibleUIData[popRef.themeSwap.activeIndex].fontAsset;
     }
 
     private static GameObject Create<T>(string objectName, GameObject go = null) where T : Object {
@@ -38,5 +42,10 @@ public abstract class FlexibleUIInstance : Editor {
         }
         else instance.transform.SetParent(go.transform, false);
         return instance;
+    }
+
+    private static void PopRefCheck() {
+
+        if (popRef == null) popRef = FindObjectOfType<PopRef>();
     }
 }

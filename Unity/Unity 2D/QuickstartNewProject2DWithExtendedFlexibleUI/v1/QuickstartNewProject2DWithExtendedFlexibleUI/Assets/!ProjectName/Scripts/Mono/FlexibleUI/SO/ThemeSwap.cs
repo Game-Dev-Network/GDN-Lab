@@ -7,8 +7,8 @@ public class ThemeSwap : ScriptableObject {
     private List<FlexibleUIData> previousFlexibleUIData;
     private PopRef popRef;
 
-    [TextArea]
-    public string note = "Adding more than one of the same Theme will merge their contents!";
+    [ReadOnlyTextArea(2)]
+    public string note = "Adding more than one of the same Theme is disallowed because it will merge their contents!";
 
     [Tooltip("Determines which theme is used for new items")]
     public int activeIndex = 0;
@@ -27,7 +27,7 @@ public class ThemeSwap : ScriptableObject {
     public void Swap() {
         if (previousFlexibleUIData == null) OnEnable();
 
-        //Adds unique themes
+        //Adds unique themes to the new elements
         if (allFlexibleUIData.Count > previousFlexibleUIData.Count) {
             //if there are no spare themes
             if (allFlexibleUIData.Count > popRef.allThemes.Count) {
@@ -35,16 +35,26 @@ public class ThemeSwap : ScriptableObject {
                 Debug.LogError("Themes cannot be used twice due to unique collections, create new Theme first", popRef.allThemes[0]);
             }
             else {
+                int indexLimit = allFlexibleUIData.Count;
                 allFlexibleUIData = previousFlexibleUIData.ToList();
                 foreach (var item in popRef.allThemes) {
                     if (!allFlexibleUIData.Contains(item)) {
                         allFlexibleUIData.Add(item);
+                        if (allFlexibleUIData.Count == indexLimit) break;
                     }
                 }
                 OnEnable();
             }
         }
-        if (allFlexibleUIData.Count < previousFlexibleUIData.Count) OnEnable();
+        else if (allFlexibleUIData.Count < previousFlexibleUIData.Count) OnEnable();
+        //Check for repeating Theme usage, reset if not unique
+        else {
+            bool allUnique = allFlexibleUIData.GroupBy(x => x).All(g => g.Count() == 1);
+            if (!allUnique) {
+                allFlexibleUIData = previousFlexibleUIData.ToList();
+                Debug.LogError("Not allowed to use the same Theme twice. This will merge collections", this);
+            }
+        }
 
         for (int i = 0; i < allFlexibleUIData.Count; i++) {
             if (allFlexibleUIData[i] != previousFlexibleUIData[i]) {
