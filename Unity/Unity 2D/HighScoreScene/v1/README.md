@@ -11,7 +11,9 @@
 
   To use this system you just need to add the whole project into your assets folder and do the following:
   
-  If you want to edit which color will be used for highlight the new highscore, change the name of the scene where to go back after this scene, the score values or default names of virtual previous players; you only need to edit in the inspector the values of "Data/ScoreSceneData.asset"
+  **Important:** Change the name of the scene where to go back after this scene at "Highscore/Data/ScoreSceneData.asset"
+  
+  If you want to edit which color will be used for highlight the new highscore, the score values or default names of virtual previous players; you only need to edit in the inspector the values of "Highscore/Data/ScoreSceneData.asset"
   
   To modify the new score data you just need to create a reference to the Score ScriptableObject, if for example your reference is called m_score you can edit values and launch the scene like this:
   
@@ -25,11 +27,28 @@
    
    - Launch just load the ScoreScene.
    
+# How to identify me.
+
+   This product has a CC-BY-4.0 License so you must add my identification in games and others derivative products. In this section I explained how to do it.
+   
+   If you are making a game you can add my name to credits.
+   
+   If you are creating any other type of derivative product you should add my name in a text file where it's briefly explained which part of the product is done by me.
+   
+   You can add my name as follows (any of those options):
+     
+	- Domingo José Osorio Valderrama
+	 
+	- Vindaloo (Domingo José Osorio Valderrama)
+	 
+	- VindalooGamedev (Domingo José Osorio Valderrama)
+	 
+	- Domingo Osorio
 
 ## Supported Engine Versions
 
-Pending
+It was created in the version 2018.1.1f1 but it could work in earlier versions.
 
 ## Authors
 
-Vindaloo
+Vindaloo (Domingo José Osorio Valderrama)
