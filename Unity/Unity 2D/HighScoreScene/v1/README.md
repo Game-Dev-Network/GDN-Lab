@@ -9,7 +9,9 @@
 
 # How to use
 
-  To use this system you just need to add the whole project into your assets folder and do the following:
+  Download the unity package and double click on it. The script folder is used to see in github which changes have been made, you don't need to download it.
+
+  To use this system you just need to:
   
   **Important:** Change the name of the scene where to go back after this scene at "Highscore/Data/ScoreSceneData.asset"
   
