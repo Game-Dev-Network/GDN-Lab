@@ -4,13 +4,19 @@ Featured Extended Flexible UI uses Scriptable Objects to dynamically swap styles
 
 Project has example folders structure setup.
 
-Also contains: PixelPerfectCamera script with wheel zoom, FollowCamera2D, InputManager, FPS counter, ScreenResolutionManager supports jumping in and out of fullscreen for any resolution, menu buttons tabbing, and accumulated useful extension methods (.NET 4.*).
+Also contains: PixelPerfectCamera script with wheel zoom, FollowCamera2D, InputManager, FPS counter, ScreenResolutionManager supports jumping in and out of fullscreen for any resolution, menu buttons tabbing, and accumulated useful extension methods.
 
-Instructions: To remove placeholder files, run "RunToRemovePlaceholders.bat".
+**Instructions - install in the following order:**
+
+1. Install TextMesh Pro using Package Manager: Window>Package Manager>All
+2. Import TMP files: Window>TextMeshPro>Import TMP Essential Resources 
+3. Import project files: Assets>Import Package>Custom Package	
+
+To remove placeholder files, run "RunToRemovePlaceholders.bat".
 
 ## Supported engine versions
 
-Unity 2018.1.5f1 +
+Unity 2018.1+
 
 ## Authors
 
@@ -18,4 +24,3 @@ Sergey Nelga
 
 Extended Flexible UI - Based on Unity's Live Training: Customising UI with Scriptable Objects https://unity3d.com/learn/tutorials/topics/user-interface-ui/introduction 
 and Ryan Hipple's talk material at Unite Austin 2017 - Game Architecture with Scriptable Objects https://youtu.be/raQ3iHhE_Kk
-
