@@ -1,2 +1,3 @@
 Snippet Name	Snippet Directory	Description	Author(s)
 Rocky's 2D Map Generation	MapGeneration	Tile game objects. Useful for dungeon crawllers and roguelike games.	Rockmetler
+Highscore Scene	HighScoreScene	Local highscore scene that store into playerprefs to save even when game is closed.	Vindaloo
