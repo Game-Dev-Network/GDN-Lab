@@ -1,6 +1,6 @@
 # Quickstart New Project 2D with Extended Flexible UI 
 
-Original unpacked project is here https://github.com/Fogsight/Quickstart2DWithExtendedFlexibleUI .
+Original unpacked project is here https://github.com/Fogsight/Quickstart2DWithExtendedFlexibleUI . It's updated more often.
 
 Featured Extended Flexible UI uses Scriptable Objects to dynamically swap styles of UI elements. Supports multiple swappable themes. Example themes setup in !Settings folder. "Theme Swap" Scriptable Object can keep and/or swap multiple themes.
 
