@@ -1,26 +1,12 @@
 # GDN Code Gift
 
-This is a project to share code snippets and projects for a variety of game engines freely to developers. Each has its own license, so please be careful of that.
+This is a project to share code snippets and projects for a variety of game engines freely to developers.
 
 ## Project Licenses
 
-Always check the individual projects for the latest license conditions.
-
-Licenses in a directory apply to all files in that directory and recursively apply to sub-directories and their respective files.
-
-A license in a directory means that all licenses in parent directories do not apply to that directory, and all direct and indirect sub-directories (along with all files within that directory and all direct and indirect sub-directories), except as to where a license contained within the sub-directory of a directory is identical to a direct or indirect parent of that directory.
+Always check the individual projects for the latest license conditions. The license on this repo isn't necessarily the same one used on projects we link to.
 
 ## FAQ
-
-### That license thing hurt my head. Can you explain it in simple terms?
-
-Yes, but the complicated license thing above still applies, this is just here to help you. If you want the authoritative answer, please check the section titled "Project Licenses"
-
-In all other cases, follow these steps until you find the license:
-1. Go to the directory of the file that you want to find the license of.
-2. If there is a `LICENSE` or `LICENSE.md` file in the current directory, then that license applies to the file.
-3. If the license in the current directory doesn't exist, go up a directory.
-4. Repeat steps 2 and 3 until you find the applicable license.
 
 ### Why can't I commit directly to master?
 
