@@ -4,6 +4,8 @@ This is a project to share code snippets and projects for a variety of game engi
 
 ## Project Licenses
 
+Always check the individual projects for the latest license conditions.
+
 Licenses in this section refer to files named `LICENSE` and `LICENSE.md` (including any variation on the capitalisations of those names).
 
 Licenses in a directory apply to all files in that directory and recursively apply to sub-directories and their respective files.
