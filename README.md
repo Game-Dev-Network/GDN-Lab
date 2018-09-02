@@ -1,6 +1,6 @@
 # GDN Code Gift
 
-This is a project to share code snippets for a variety of game engines freely to developers. Each snippet has its own license, so please be careful of that.
+This is a project to share code snippets and projects for a variety of game engines freely to developers. Each has its own license, so please be careful of that.
 
 ## Project Licenses
 
