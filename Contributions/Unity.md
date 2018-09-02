@@ -1,5 +1,3 @@
 |Reviewer|Verification|Date(dd/mm/yy)|Author|Project Name/Link|Short Description|
 |---|---|---|---|---|---|
-|Fogsight|Verified|03/09/18|Fogsight|[Quickstart2DWithExtendedFlexibleUI][Quickstart2DWithExtendedFlexibleUI]|Template for the new Unity project with ExtendedFlexibleUI.|
-
-[Quickstart2DWithExtendedFlexibleUI]:[https://github.com/Fogsight/Quickstart2DWithExtendedFlexibleUI]
+|Fogsight|Verified|03/09/18|Fogsight|[Quickstart2DWithExtendedFlexibleUI](https://github.com/Fogsight/Quickstart2DWithExtendedFlexibleUI)|Template for the new Unity project with ExtendedFlexibleUI.|
