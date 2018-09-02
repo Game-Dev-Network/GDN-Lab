@@ -3,9 +3,9 @@ Reviwer: Pending. Verification Date (dd/mm/yy).
 Author and Description: UserName. 
 Link: https://github.com/...
 
-Submissions:
+### Submissions:
 
-Reviewer: Fogsight. Verified. 03/09/18. 
+Reviewer: Fogsight. Verified. 03/09/18.
 Author and Description: Fogsight. Template for the new Unity project with ExtendedFlexibleUI.
 Link: https://github.com/Fogsight/Quickstart2DWithExtendedFlexibleUI
 
