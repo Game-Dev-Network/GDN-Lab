@@ -6,21 +6,15 @@ This is a project to share code snippets and projects for a variety of game engi
 
 Always check the individual projects for the latest license conditions.
 
-Licenses in this section refer to files named `LICENSE` and `LICENSE.md` (including any variation on the capitalisations of those names).
-
 Licenses in a directory apply to all files in that directory and recursively apply to sub-directories and their respective files.
 
 A license in a directory means that all licenses in parent directories do not apply to that directory, and all direct and indirect sub-directories (along with all files within that directory and all direct and indirect sub-directories), except as to where a license contained within the sub-directory of a directory is identical to a direct or indirect parent of that directory.
-
-Files that have a name of `README`, `README.md`, `VERSIONS.tsv` or `INDEX.tsv` (including any variation on the capitalisations of those names) are licensed under the project's root directory license no matter their location, and no license in any sub-directory applies to these files.
 
 ## FAQ
 
 ### That license thing hurt my head. Can you explain it in simple terms?
 
 Yes, but the complicated license thing above still applies, this is just here to help you. If you want the authoritative answer, please check the section titled "Project Licenses"
-
-If the file that you're wanting to use is called `README`, `README.md`, `VERSIONS.tsv`, or `INDEX.tsv` then the license you want is [this one][Project License].
 
 In all other cases, follow these steps until you find the license:
 1. Go to the directory of the file that you want to find the license of.
