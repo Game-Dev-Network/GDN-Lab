@@ -8,7 +8,7 @@ We distribute anything in the Code Gift under an adapted CC0 license. To ensure 
 
 ## Project structure
 
-You'll notice that our directory structure is somewhat long. We use the following format to structure code snippets in here:
+We use the following format to structure code snippets in here:
 
 ```
 code-gift/
@@ -28,9 +28,9 @@ Each engine/platform has its own contributions list.
 1. Create your own GitHub repository for your project.
 2. Choose a license (see below) and put it in LICENSE.md in the root directory.
 3. Create a README.md with a project description and instructions in the root directory as well.
-4. Fork this repository, edit an appropriate contribution file filling required fields.
-7. Commit and create a pull request back into the `master` branch. If this is your first pull request, you'll also need to accept the CLA—you'll get instructions for this once you've created your pull request.
-8. Wait for your pull request to be approved.
+4. Fork this repository, edit an appropriate contribution file, filling required fields and omitting reviewer field.
+5. Commit and create a pull request back into the `master` branch. If this is your first pull request, you'll also need to accept the CLA—you'll get instructions for this once you've created your pull request.
+6. Wait for your pull request to be approved.
 
 ### Choosing a license
 
